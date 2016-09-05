@@ -21,6 +21,7 @@ public class ContactActivity extends AppCompatActivity {
     private MySqliteOpenHelper dbhelper;
     private boolean isNew=false;
     private int id;
+    ///////////////////////////
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
